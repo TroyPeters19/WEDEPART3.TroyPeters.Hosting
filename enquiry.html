@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSPCA - Volunteering Enquiry</title>
+    <link rel="stylesheet" href="CSS/enquiry.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>NSPCA</h1>
+    </header>
+
+    <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="welfare.html">Animal Welfare</a>
+        <a href="services.html">Services</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <main>
+
+        <!-- Introduction Section -->
+        <div class="intro-section">
+            <h2>Volunteer With the NSPCA</h2>
+
+            <p>
+                Would you like to make a difference in the lives of animals?
+                The NSPCA provides opportunities for people who want to
+                support animal welfare and help protect animals across
+                South Africa.
+            </p>
+
+            <p>
+                Complete the enquiry form below to find out more about
+                volunteering opportunities.
+            </p>
+        </div>
+
+        <!-- Enquiry Information Section -->
+        <div class="contact-section">
+            <h3>Volunteering Opportunities</h3>
+
+            <p>
+                Volunteers can support animal welfare by helping with
+                activities such as animal care, awareness campaigns,
+                fundraising and community projects.
+            </p>
+
+            <p>
+                If you are interested in becoming a volunteer, you can use
+                this form to ask about available opportunities, requirements
+                and how to get involved.
+            </p>
+
+            <p>
+                Please provide your contact details and tell us why you
+                are interested in volunteering.
+            </p>
+        </div>
+
+        <!-- Enquiry Form Section -->
+        <div class="form-section">
+
+            <h3>Volunteer Enquiry Form</h3>
+
+            <form id="enquiryForm">
+
+                <!-- Full Name -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+
+                <!-- Email -->
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email">
+
+                <!-- Phone Number -->
+                <label for="number">Phone Number:</label>
+                <input type="tel" id="number" name="number">
+
+                <!-- Volunteering Interest -->
+                <label for="reason">Area of Interest:</label>
+                <select id="reason" name="reason">
+                    <option value="">Select an area</option>
+                    <option value="animal-care">Animal Care</option>
+                    <option value="awareness">Animal Welfare Awareness</option>
+                    <option value="fundraising">Fundraising</option>
+                    <option value="community">Community Projects</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <!-- Enquiry Message -->
+                <label for="message">Why Would You Like to Volunteer?</label>
+                <textarea id="message" name="message"></textarea>
+
+                <!-- Submit Button -->
+                <button type="submit">Submit Enquiry</button>
+
+                <p id="response"></p>
+
+            </form>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 NSPCA</p>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="JS/enquiry.js"></script>
+
+</body>
+
+</html>

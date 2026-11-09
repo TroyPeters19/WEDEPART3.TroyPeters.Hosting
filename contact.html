@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSPCA - Contact Us</title>
+
+    <link rel="stylesheet" href="CSS/contact.css">
+
+    <!-- Leaflet CSS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>NSPCA</h1>
+    </header>
+
+    <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="welfare.html">Animal Welfare</a>
+        <a href="services.html">Services</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <!-- Interactive Map Section -->
+    <section class="map-section">
+
+        <h3>Find Our Location</h3>
+
+        <p>
+            Visit the NSPCA at 6 Clark Road, Florentia, Alberton.
+        </p>
+
+        <!-- Map container -->
+        <div id="map"></div>
+
+        <!-- Map controls -->
+        <div class="map-controls">
+            <button type="button" id="zoomIn">Zoom In</button>
+            <button type="button" id="zoomOut">Zoom Out</button>
+            <button type="button" id="resetMap">Reset Map</button>
+        </div>
+
+        <!-- GPS Coordinates -->
+        <p id="coordinates">
+            Click anywhere on the map to view GPS coordinates.
+        </p>
+
+    </section>
+
+    <main>
+        <div class="contact-section">
+            <h2>Contact Us</h2>
+
+            <p>
+                If you have need assistance in reporting animal cruelty or donating to your local SPCA,
+                you can contact the NSPCA using the information below.
+            </p>
+
+            <h3>Contact Information</h3>
+
+            <p>Phone: 011 907 3590</p>
+            <p>Email: nspca@nspca.co.za</p>
+        </div>
+
+
+        <section>
+            <div class="form-section">
+
+                <h3>Please fill out this form if you would like to make a donation,
+                    reporting animal cruelty or would like to volunteer for your SPCA
+                </h3>
+
+
+                <form id="form">
+
+
+
+                    <!--Full Name-->
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name">
+
+                    <br><br>
+
+                    <!--Email-->
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email">
+
+                    <br><br>
+
+                    <!--Phone Number-->
+                    <label for="Number">Phone Number:</label>
+                    <input type="number" id="number" name="number">
+
+                    <br><br>
+
+                    <!--Reason for enquiry-->
+                    <label for="Reason for Enquiry">Reason(Donation,reporting or volunteering):</label>
+                    <input type="text" id="text" name="text">
+
+                    <br><br>
+                    <!--Submit Button-->
+                    <button type="submit">Submit</button>
+
+                    <br><br>
+
+                    <!-- Response Message -->
+                    <p id="response"></p>
+                </form>
+            </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 NSPCA</p>
+    </footer>
+
+    <!-- Leaflet JavaScript Library -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Link to JavaScript file -->
+    <script src="JS/map.js"></script>
+    <script src="JS/contact.js"></script>
+
+</body>

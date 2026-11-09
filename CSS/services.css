@@ -1,0 +1,153 @@
+/*1. CSS RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Base Styles*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f2f8fc;
+    color: #333;
+}
+
+/* Header */
+
+header {
+    background-color: #005b96;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/*Typography*/
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0.5rem;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h4{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+/* Navigation */
+
+.main-nav {
+    background-color: #003f6b;
+    text-align: center;
+    padding: 15px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    color: #add8e6;
+}
+
+/*Services*/
+.services{
+    background-color: #003f6b;
+    border: 10px solid #005b96;
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    color: white;
+}
+
+/*Services sections*/
+.services-section{
+    background-color: white;
+    border: 10px solid #005b96;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #003f6b;
+    font-size: 5rem;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #005b96;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .main-nav {
+        padding: 10px;
+    }
+
+    .main-nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .services-section,
+    .services
+    {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .footer {
+        padding: 12px;
+    }
+}

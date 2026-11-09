@@ -1,0 +1,27 @@
+<<<<<<< HEAD
+schema: "classroom50/repo-config/v1"
+classroom: "wede5020-gr2"
+assignment: "wede5112-part-one"
+owner:
+  username: "TroyPeters19"
+  id: 265725930
+  accepted_at: "2026-08-27T07:53:31Z"
+=======
+<<<<<<< HEAD
+schema: "classroom50/repo-config/v1"
+classroom: "wede5020-gr2"
+assignment: "wede5112-part-one"
+owner:
+  username: "TroyPeters19"
+  id: 265725930
+  accepted_at: "2026-08-27T07:53:31Z"
+=======
+schema: "classroom50/repo-config/v1"
+classroom: "wede5020-gr2"
+assignment: "wede5112-part-one"
+owner:
+  username: "TroyPeters19"
+  id: 265725930
+  accepted_at: "2026-08-27T07:53:31Z"
+>>>>>>> 39a52f6ab8fef08cf8e44244345dba89f8eeba18
+>>>>>>> adc673d8deafc041bba119cee5f3e12b3cca9017
